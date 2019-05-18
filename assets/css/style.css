@@ -1,0 +1,117 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+    background-color: #f4f4f7;
+}
+
+.loading-page{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.top-center, .content{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.name{
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.nav{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto; 
+    width: 100%;
+    height: 130px;
+    padding-top: 10px;
+}
+
+ul{
+    text-align: center;
+    line-height: 36px;
+    margin: 0 auto;
+}
+
+.nav-bar{
+    letter-spacing: .03em;
+/*    width: 30%;*/
+    display: block;
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none !important;
+    color: black;
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+
+.pic, desc{
+    width: 30%;
+}
+
+img {
+    width: 380px;
+    padding: 40px;
+    float: left;
+}
+
+.desc{
+    padding-left: 160px;
+    padding-right: 60px;
+    padding-top: 150px;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    text-justify: auto;
+}
+
+p > a{
+    color:blue;
+}
+
+.content::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.resume, .social-media{
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+    color: black;
+    background-color: #f4f4f7;
+    border: 2px solid black;
+    margin-bottom: 40px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: #f4f4f7; 
+    border: 2px solid black;
+}
+
+.fab, .fas{
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 80px;
+}
