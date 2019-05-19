@@ -56,6 +56,11 @@ p a{
     font-size: 20px;
 }
 
+.social-media{
+    /*display: block;*/
+    text-align: center;
+}
+
 .resume{
     display: flex;
     margin: 0 auto;
