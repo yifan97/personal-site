@@ -9,7 +9,7 @@ body{
 }
 
 .top-center, .content{
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -26,7 +26,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     margin: 0 auto; 
-    width: 100%;
+    width: 80%;
     height: 130px;
     padding-top: 10px;
 }
@@ -60,7 +60,7 @@ a{
 }
 
 img {
-    width: 380px;
+    width: 480px;
     padding: 40px;
     float: left;
 }
@@ -72,6 +72,7 @@ img {
     letter-spacing: 0.1em;
     line-height: 1.5;
     text-justify: auto;
+    padding-bottom: 160px;
 }
 
 p > a{
@@ -88,7 +89,7 @@ p > a{
 .resume, .social-media{
     margin: 0 auto;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .btn{
@@ -100,7 +101,7 @@ p > a{
     color: black;
     background-color: #f4f4f7;
     border: 2px solid black;
-    margin-bottom: 40px;
+    /*margin-bottom: 10px;*/
 }
 
 .btn:hover{
