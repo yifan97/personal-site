@@ -1,0 +1,63 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+    background-color: #f4f4f7;
+}
+
+.loading-page{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.top-center, .content{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.name{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.nav{
+    margin-bottom: 40px;
+}
+
+.nav-bar{
+    display: inline;
+    clear: both;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+li a {
+    font-size: 13px;
+}
+
+.pic{
+    float: none;
+    margin: 0 auto;
+}
+
+.desc p{
+    font-size: 13px;  
+    text-align: center; 
+}
+
+p a{
+    font-size: 1em; 
+}
+
+.fab, .fas{
+    font-size: 20px;
+}
+
+.resume{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
