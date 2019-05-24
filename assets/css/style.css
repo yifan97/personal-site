@@ -7,15 +7,36 @@ body{
     margin: 0 auto;
 }
 
-.main-content, .outreach {
+.nav-wrapper, .social-media-wrapper, .experience {
     /* background-color: rgba(255, 255, 255, 0.5); */
-    background-color: #edeeef;
+    background-color:#f7f9fc;
+}
+
+.resume{
+    margin: 0 auto;
+}
+
+.resume p{
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.resume p a{
+    text-decoration: none;
+    color: black;
+}
+
+.resume p:hover{
+    background-color: #eaecef; 
 }
 
 .hr-container {
     max-width: 50%;  
     margin: 40px auto;
-    padding-top: 40px; 
+    padding-top: 20px; 
     text-transform: uppercase;
 }
 
@@ -57,11 +78,7 @@ body{
 }
 
 .hr-container .grey::after{
-    background-color: #edeeef;
-}
-
-.nav-wrapper{
-    margin-bottom: 20px;
+    background-color: #f7f9fc;
 }
 
 nav{
@@ -101,6 +118,24 @@ nav{
 
 .main-content{
     padding-bottom: 20px;
+}
+
+.desc p {
+    color: #50555c;
+    font-size: 20px;
+}
+
+.desc .welcome{
+    font-size: 28px;
+}
+
+.desc a{
+    color: black;
+    text-decoration: none;
+}
+
+.desc a:hover{
+    opacity: 0.3;
 }
 
 .expr{
