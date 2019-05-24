@@ -15,11 +15,14 @@ body{
 
 .name{
     text-align: center;
-    padding-top: 20px;
-    margin-top: 30px;
     text-align: center;
-    font-size: 30px;
+    padding-top: 0;
     font-weight: 200;
+    padding-bottom: 20px;
+}
+
+.name h1{
+    font-size: 30px;
 }
 
 .nav{
@@ -52,8 +55,12 @@ p a{
     font-size: 1em; 
 }
 
-.fab, .fas{
-    font-size: 20px;
+.ham {
+    display: inline;
+    font-size: 35px;
+    position: fixed;
+    top: 3.6%;
+    right: 4.5%;
 }
 
 .social-media{
@@ -65,4 +72,12 @@ p a{
     display: flex;
     margin: 0 auto;
     justify-content: center;
+}
+
+.nav{
+    display: none;
+}
+
+img{
+    padding-bottom: 30px;
 }
