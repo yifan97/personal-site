@@ -1,83 +1,89 @@
-body{
-    font-family: 'Libre Baskerville', serif;
-    background-color: #f4f4f7;
-}
-
-.loading-page{
-    margin: 0 auto;
-    width: 80%;
-}
-
-.top-center, .content{
-    width: 70%;
-    margin: 0 auto;
-}
-
-.name{
-    text-align: center;
-    text-align: center;
-    padding-top: 0;
-    font-weight: 200;
-    padding-bottom: 20px;
-}
-
-.name h1{
-    font-size: 30px;
-}
-
-.nav{
-    margin-bottom: 40px;
-}
-
-.nav-bar{
-    display: inline;
-    clear: both;
-    padding: 0;
-    margin: 0 auto;
-    text-align: center;
-}
-
-li a {
-    font-size: 13px;
-}
-
-.pic{
-    float: none;
-    margin: 0 auto;
-}
-
-.desc p{
-    font-size: 13px;  
-    text-align: center; 
-}
-
-p a{
-    font-size: 1em; 
-}
-
-.ham {
-    display: inline;
-    font-size: 35px;
-    position: fixed;
-    top: 3.6%;
-    right: 4.5%;
-}
-
-.social-media{
-    /*display: block;*/
-    text-align: center;
-}
-
-.resume{
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-}
-
-.nav{
+.wrap-content{
     display: none;
 }
 
-img{
-    padding-bottom: 30px;
+.ham-content{
+    display: block;
 }
+
+.ham-content ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.ham-content ul li a{
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.ham-nav {
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.ham-nav, .close {
+    display: inline-block;
+}
+
+.close span{
+    background-color:lightgrey;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px; 
+}
+
+.close span:hover{
+    cursor: pointer;
+}
+
+.close span i{
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.nav-wrapper span {
+    font-weight: 100;
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 36px;    
+}
+
+.fixed{
+    display: none;
+}
+
+.hr-text{
+    font-size: 25px;
+}
+
+.desc p{
+    font-size: 17px;
+}
+
+.desc .welcome{
+    font-size: 24px;
+}
+
+.expr-img img{
+    width: 50%;
+}
+
+.info{
+    text-align: center;
+}
+
+.name{
+    padding-top: 20px;
+}
+
+.social-media-wrapper{
+    padding-top: 20px;
+}
+
