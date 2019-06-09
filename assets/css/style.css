@@ -7,7 +7,12 @@ ul {
 }
 
 .ham-wrapper{
-    display: none;
+    display: none; 
+    transition: all 1s ease-in;
+}
+
+.nav-toggle{
+    visibility: hidden;
 }
 
 .top-center{
@@ -15,13 +20,13 @@ ul {
     margin: 0 auto;
 }
 
+.nav-wrapper{
+    position: relative;
+}
+
 .nav-wrapper, .social-media-wrapper, .experience {
     /* background-color: rgba(255, 255, 255, 0.5); */
     background-color:#f7f9fc;
-}
-
-.nav-wrapper span{
-    display: none;
 }
 
 .resume{
@@ -198,3 +203,4 @@ nav{
 .content{
     display: none;
 }
+

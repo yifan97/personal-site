@@ -2,15 +2,16 @@ $(document).ready(function(){
     $('.fa-envelope-square').click(function(){
         $("#mail-content").toggleClass('content');
     });
-
-    $('.fa-bars').click(function(){
-        $('.wrapper').addClass('wrap-content');
+    
+    $('.nav-toggle').click(function(){
         $('.ham-wrapper').addClass('ham-content');
-
+        $('.ham-wrapper').addClass('open');
+        $('.wrapper').addClass('out');
     });
 
     $('.close-tab').click(function(){
-        $('.wrapper').removeClass('wrap-content');
-        $('.ham-wrapper').removeClass('ham-content');
+        $('.ham-wrapper').removeClass('open');
+        $('.wrapper').removeClass('out');
     });
+
 });
