@@ -14,4 +14,8 @@ $(document).ready(function(){
         $('.wrapper').removeClass('out');
     });
 
+    $('[data-fancybox="gallery"]').fancybox({
+        // Options will go here
+    });
+
 });
