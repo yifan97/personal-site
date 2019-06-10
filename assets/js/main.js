@@ -18,4 +18,12 @@ $(document).ready(function(){
         // Options will go here
     });
 
+    // add smmoth scrolling when click to different section
+    $('.all-nav a').click(function(){ 
+        $('html, body').stop().animate({
+            scrollTop: $( $(this).attr('href') ).offset().top - 160
+            }, 400);
+        return false;
+    });
+
 });
