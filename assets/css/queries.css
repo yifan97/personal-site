@@ -2,6 +2,11 @@
     display: none;
 }
 
+.burger{
+    display: block; 
+    cursor: pointer;
+}
+
 .open{
     display: block;
 }

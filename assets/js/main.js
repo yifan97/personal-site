@@ -3,6 +3,16 @@ $(document).ready(function(){
         $("#mail-content").toggleClass('content');
     });
     
+
+    $('.burger').click(function(){
+        $('.nav-container').toggleClass('active');
+        console.log("jeda");
+        $(this).toggleClass('toggle'); 
+        $('.background').toggleClass('opa');
+    });
+
+
+
     $('.nav-toggle').click(function(){
         $('.ham-wrapper').addClass('ham-content');
         $('.ham-wrapper').addClass('open');
