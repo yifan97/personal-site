@@ -5,35 +5,14 @@ $(document).ready(function(){
     
 
     $('.burger').click(function(){
-        $('.nav-container').toggleClass('active');
-        console.log("jeda");
+        $('.list-container').toggleClass('active')
         $(this).toggleClass('toggle'); 
-        $('.background').toggleClass('opa');
+        $('body').toggleClass('ove');
     });
 
-
-
-    $('.nav-toggle').click(function(){
-        $('.ham-wrapper').addClass('ham-content');
-        $('.ham-wrapper').addClass('open');
-        $('.wrapper').addClass('out');
+    $('.list-container a').click(function(){
+        console.log('dadsa');
+        $('.list-container').removeClass('active');
+        $('.burger').removeClass('toggle');
     });
-
-    $('.close-tab').click(function(){
-        $('.ham-wrapper').removeClass('open');
-        $('.wrapper').removeClass('out');
-    });
-
-    $('[data-fancybox="gallery"]').fancybox({
-        // Options will go here
-    });
-
-    // add smmoth scrolling when click to different section
-    $('.all-nav a').click(function(){ 
-        $('html, body').stop().animate({
-            scrollTop: $( $(this).attr('href') ).offset().top - 160
-            }, 400);
-        return false;
-    });
-
 });

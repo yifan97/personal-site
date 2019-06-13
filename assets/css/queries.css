@@ -5,6 +5,7 @@
 .burger{
     display: block; 
     cursor: pointer;
+    z-index: 999;
 }
 
 .open{
